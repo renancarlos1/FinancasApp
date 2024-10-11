@@ -67,11 +67,11 @@ namespace FinancasApp.Domain.Services
             {
                 Id = usuario.Id,
                 Nome = usuario.Nome,
-                Email = usuario.Email
+                Email = usuario.Email,
+                DataHoraCadastro = DateTime.Now
             };
         }
     }
 }
-
 
 
